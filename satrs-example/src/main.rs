@@ -1,12 +1,12 @@
-mod acs;
-mod eps;
-mod events;
-mod hk;
-mod interface;
-mod logger;
-mod pus;
-mod requests;
-mod tmtc;
+pub mod acs;
+pub mod eps;
+pub mod events;
+pub mod hk;
+pub mod interface;
+pub mod logger;
+pub mod pus;
+pub mod requests;
+pub mod tmtc;
 
 use crate::eps::pcdu::{
     PcduHandler, SerialInterfaceDummy, SerialInterfaceToSim, SerialSimInterfaceWrapper,
